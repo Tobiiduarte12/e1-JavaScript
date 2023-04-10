@@ -10,6 +10,7 @@ h1 {
     font-size: 3rem;
     color: #ffff;
     font-family: 'Times New Roman', Times, serif;
+    max-width: 350px;
 }
 h2 {
     font-size: 2.5rem;
