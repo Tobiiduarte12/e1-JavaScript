@@ -20,7 +20,7 @@ const greaterOrLess = (num1, num2) => {
     } else {
         console.log(`ambos numeros son iguales`);
     }
-} // Función que me devuelve por consola cual de los numeros ingresados es mayor
+} // Función que me devuelve por consola cual de los numeros ingresados es mayor, menor o igual
 
 greaterOrLess (10, 10);
 
@@ -52,7 +52,7 @@ const wordNumber = (word, number) => {
     for (let i = 0; i < number; i++) {
         console.log(`${word}`);
     }
-}
+} // Función que me devuelve por consola la palabra ingresada como parametro, la cantidad de veces indicada por el numero recibido
 
 wordNumber ("hola", 22)
 
@@ -77,7 +77,7 @@ const otherArrayValue = () => {
         }
         console.log(otherArray[i]);
     }
-} // Función que me imprime en consola todos los elementos dentro del array, excepto el que se encuentra en la quinta posición 
+} // Función que me imprime en consola todos los elementos dentro del array, excepto al que se encuentre en la quinta posición 
 
 otherArrayValue ()
 
