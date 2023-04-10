@@ -1,4 +1,4 @@
-// *********ejercicio 1**********
+// ********* ejercicio 1 **********
 
 const evenOrOdd = (num) => {
     if (num % 2 === 0) {
@@ -10,7 +10,7 @@ const evenOrOdd = (num) => {
 
 evenOrOdd (134);
 
-// ********ejercicio 2*********
+// ******** ejercicio 2 *********
 
 const greaterOrLess = (num1, num2) => {
     if (num1 > num2) {
@@ -24,7 +24,7 @@ const greaterOrLess = (num1, num2) => {
 
 greaterOrLess (10, 10);
 
-// ********ejercicio 3***************
+// *********** ejercicio 3 ***************
 
 const multiploX = (num) => {
     if (num % 5 === 0) {
@@ -36,7 +36,7 @@ const multiploX = (num) => {
 
 multiploX (1510);
 
-// ********ejercicio 4**********
+// ******** ejercicio 4 **********
 
 const numberGrowth = (num) => {
     for (let i = 0; i <= num; i++) {
@@ -46,7 +46,7 @@ const numberGrowth = (num) => {
 
 numberGrowth (2)
 
-// ************ejercicio 5**********
+// ************ ejercicio 5 **********
 
 const wordNumber = (word, number) => {
     for (let i = 0; i < number; i++) {
@@ -56,25 +56,39 @@ const wordNumber = (word, number) => {
 
 wordNumber ("hola", 8)
 
-// ************ejercicio 6************
+// ************ ejercicio 6 ************
 
-let miArray = [1,2,3,4,5,6,7,8,9,10]
+let miArray = [1,2,3,4, ["avion", "auto"]]
 
 const arrayValue = () => {
     console.log(miArray);
-} // Función que me imprime en consola todos los elementos dentro de "miArray"
+} // Función que me imprime en consola todos los elementos dentro de mi Array
 
 arrayValue ()
 
-// **************ejercicio 7*********
+// ************** ejercicio 7 *********
+
+let otherArray = [1,2,3,4,5,6,7,8,9,10]
 
 const otherArrayValue = () => {
-    for (let i = 0; i < miArray.length; i++) {
-        if (miArray[i] == [5]) {
+    for (let i = 0; i < otherArray.length; i++) {
+        if (otherArray[i] == otherArray[5]) {
             continue
         }
-        console.log(miArray[i]);
+        console.log(otherArray[i]);
     }
-}
+} // Función que me imprime en consola todos los elementos dentro del array, excepto el que se encuentra en la quinta posición 
 
-otherArrayValue()
+otherArrayValue ()
+
+// ************ ejercicio 8 *************
+
+let thirdArray = [1,2,3,4,5];
+
+const arrayMultiplicado = (num) => {
+    for (let i = 0; i <= thirdArray.length; i++) {
+        console.log(`el numero ${i} multiplicado por ${num} es igual a ${i * num}`);
+    }
+} // Función que me devuelve por consola cada numero del array multiplicado por el numero que recibe como parametro
+
+arrayMultiplicado (8)
