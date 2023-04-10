@@ -86,7 +86,7 @@ otherArrayValue ()
 let thirdArray = [1,2,3,4,5];
 
 const arrayMultiplicado = (num) => {
-    for (let i = 0; i <= thirdArray.length; i++) {
+    for (let i = thirdArray[0]; i <= thirdArray.length; i++) {
         console.log(`el numero ${i} multiplicado por ${num} es igual a ${i * num}`);
     }
 } // Función que me devuelve por consola cada numero del array multiplicado por el numero que recibe como parametro
