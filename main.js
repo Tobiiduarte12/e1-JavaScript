@@ -39,12 +39,12 @@ multiploX (1510);
 // ******** ejercicio 4 **********
 
 const numberGrowth = (num) => {
-    for (let i = 0; i <= num; i++) {
+    for (let i = 0; i < num; i++) {
         console.log(`${i}`);  
     }
 } // Función que devuelve por consola todos los numeros menores al numero recibido como parametro
 
-numberGrowth (2)
+numberGrowth (4)
 
 // ************ ejercicio 5 **********
 
@@ -54,7 +54,7 @@ const wordNumber = (word, number) => {
     }
 }
 
-wordNumber ("hola", 8)
+wordNumber ("hola", 22)
 
 // ************ ejercicio 6 ************
 
